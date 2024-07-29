@@ -12,5 +12,8 @@
       "src": "/(.*)",
       "dest": "wsgi.py"
     }
-  ]
+  ],
+  "scripts": {
+    "postinstall": "pip install --upgrade pip setuptools"
+  }
 }
